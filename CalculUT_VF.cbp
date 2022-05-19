@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CalculUT_VF" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CalculUT_VF" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CalculUT_VF" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Sources/Controleur/cpp/Controleur.cpp" />
+		<Unit filename="Sources/Controleur/cpp/OperateurManager.cpp" />
+		<Unit filename="Sources/Controleur/include/Controleur.h" />
+		<Unit filename="Sources/Controleur/include/ControleurException.h" />
+		<Unit filename="Sources/Controleur/include/OperateurManager.h" />
+		<Unit filename="Sources/OperateurETLitterales/cpp/Litterale.cpp" />
+		<Unit filename="Sources/OperateurETLitterales/cpp/LitteraleAtome.cpp" />
+		<Unit filename="Sources/OperateurETLitterales/cpp/LitteraleExpr.cpp" />
+		<Unit filename="Sources/OperateurETLitterales/cpp/LitteraleFactory.cpp" />
+		<Unit filename="Sources/OperateurETLitterales/cpp/LitteraleInt.cpp" />
+		<Unit filename="Sources/OperateurETLitterales/cpp/LitteraleManager.cpp" />
+		<Unit filename="Sources/OperateurETLitterales/cpp/LitteraleNum.cpp" />
+		<Unit filename="Sources/OperateurETLitterales/cpp/LitteraleProgr.cpp" />
+		<Unit filename="Sources/OperateurETLitterales/cpp/LitteraleRatio.cpp" />
+		<Unit filename="Sources/OperateurETLitterales/cpp/LitteraleReelle.cpp" />
+		<Unit filename="Sources/OperateurETLitterales/cpp/Operateurs.cpp" />
+		<Unit filename="Sources/OperateurETLitterales/cpp/Pile.cpp" />
+		<Unit filename="Sources/OperateurETLitterales/cpp/VariableManager.cpp" />
+		<Unit filename="Sources/OperateurETLitterales/include/Litterale.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/LitteraleAtome.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/LitteraleException.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/LitteraleExpr.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/LitteraleFactory.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/LitteraleInt.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/LitteraleManager.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/LitteraleNum.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/LitteraleProgr.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/LitteraleRatio.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/LitteraleReelle.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/Operateurs.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/OperateursException.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/Pile.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/PileException.h" />
+		<Unit filename="Sources/OperateurETLitterales/include/VariableManager.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

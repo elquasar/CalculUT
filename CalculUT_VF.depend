@@ -1,0 +1,584 @@
+# depslib dependency file v1.0
+1608389421 source:c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\cpp\litterale.cpp
+	"../include/Litterale.h"
+
+1608389421 c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\include\litterale.h
+	<iostream>
+
+1608389421 source:c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\cpp\litteraleatome.cpp
+	"../include/LitteraleAtome.h"
+
+1608389421 c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\include\litteraleatome.h
+	"Litterale.h"
+	<string>
+
+1608389421 source:c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\cpp\litteraleexpr.cpp
+	"../include/LitteraleExpr.h"
+
+1608389421 c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\include\litteraleexpr.h
+	"LitteraleAtome.h"
+
+1608389421 source:c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\cpp\litteralefactory.cpp
+	"../include/LitteraleFactory.h"
+
+1608389421 c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\include\litteralefactory.h
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	"Litterale.h"
+	"LitteraleRatio.h"
+	"LitteraleInt.h"
+	"LitteraleReelle.h"
+	"LitteraleExpr.h"
+	"LitteraleAtome.h"
+	"LitteraleException.h"
+
+1608389421 c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\include\litteraleratio.h
+	"LitteraleReelle.h"
+
+1608389421 c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\include\litteralereelle.h
+	"LitteraleNum.h"
+
+1608389421 c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\include\litteralenum.h
+	<iostream>
+	"Litterale.h"
+
+1608389421 c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\include\litteraleint.h
+	"LitteraleRatio.h"
+
+1608389421 c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\include\litteraleexception.h
+	<stdexcept>
+	<string>
+
+1608389421 source:c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\cpp\litteraleint.cpp
+	"../include/LitteraleInt.h"
+
+1608389421 source:c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\cpp\litteralenum.cpp
+	"../include/LitteraleNum.h"
+
+1608389421 source:c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\cpp\litteraleratio.cpp
+	"../include/LitteraleRatio.h"
+
+1608389421 source:c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\cpp\litteralereelle.cpp
+	"../include/LitteraleReelle.h"
+
+1608389421 source:c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\cpp\operateurs.cpp
+	"../include/Operateurs.h"
+	<iostream>
+	"../include/Pile.h"
+	"../include/LitteraleFactory.h"
+
+1608389421 c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\include\operateurs.h
+	"Litterale.h"
+	"LitteraleNum.h"
+	"LitteraleInt.h"
+	"LitteraleReelle.h"
+	"LitteraleRatio.h"
+	"LitteraleExpr.h"
+	<vector>
+
+1608412617 c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\include\pile.h
+	<iostream>
+	<vector>
+	"Litterale.h"
+
+1608389421 source:c:\users\jgarc\desktop\calculut_vf\sources\operateuretlitterales\cpp\pile.cpp
+	"../include/Pile.h"
+	"../include/Litterale.h"
+
+1608424510 source:c:\users\jgarc\desktop\calculut_vf\main.cpp
+	<iostream>
+	"Sources/OperateurETLitterales/include/Operateurs.h"
+	"Sources/Controleur/include/Controleur.h"
+
+1608425059 source:c:\users\jgarc\desktop\calculut_vf\sources\controleur\cpp\controleur.cpp
+	"../include/Controleur.h"
+
+1608425059 c:\users\jgarc\desktop\calculut_vf\sources\controleur\include\controleur.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+	<regex>
+	"../../../Sources/OperateurETLitterales/include/Pile.h"
+	"../../../Sources/OperateurETLitterales/include/Litterale.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleInt.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleReelle.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleExpr.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleAtome.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleFactory.h"
+	"../../../Sources/OperateurETLitterales/include/Operateurs.h"
+
+1609032371 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\main.cpp
+	<iostream>
+	"Sources/OperateurETLitterales/include/Operateurs.h"
+	"Sources/Controleur/include/Controleur.h"
+
+1608431389 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\operateurs.h
+	"Litterale.h"
+	"LitteraleNum.h"
+	"LitteraleInt.h"
+	"LitteraleReelle.h"
+	"LitteraleRatio.h"
+	"LitteraleExpr.h"
+	<vector>
+
+1608431389 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\litterale.h
+	<iostream>
+
+1608431389 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\litteralenum.h
+	<iostream>
+	"Litterale.h"
+
+1608431389 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\litteraleint.h
+	"LitteraleRatio.h"
+
+1609033761 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\litteraleratio.h
+	"LitteraleReelle.h"
+
+1609033761 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\litteralereelle.h
+	"LitteraleNum.h"
+
+1608431389 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\litteraleexpr.h
+	"LitteraleAtome.h"
+
+1608431389 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\litteraleatome.h
+	"Litterale.h"
+	<string>
+
+1609030917 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\controleur\include\controleur.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+	<regex>
+	"ControleurException.h"
+	"../../../Sources/OperateurETLitterales/include/Pile.h"
+	"../../../Sources/OperateurETLitterales/include/Litterale.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleInt.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleReelle.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleExpr.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleAtome.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleFactory.h"
+	"OperateurManager.h"
+	"../../../Sources/OperateurETLitterales/include/Operateurs.h"
+	"../../../Sources/OperateurETLitterales/include/VariableManager.h"
+
+1609032858 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\pile.h
+	<iostream>
+	<vector>
+	"Litterale.h"
+	"PileException.h"
+
+1608431389 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\litteralefactory.h
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	"Litterale.h"
+	"LitteraleRatio.h"
+	"LitteraleInt.h"
+	"LitteraleReelle.h"
+	"LitteraleExpr.h"
+	"LitteraleAtome.h"
+	"LitteraleException.h"
+
+1608431389 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\litteraleexception.h
+	<stdexcept>
+	<string>
+
+1608431389 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\cpp\litterale.cpp
+	"../include/Litterale.h"
+
+1608431389 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteraleatome.cpp
+	"../include/LitteraleAtome.h"
+
+1608431389 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteraleexpr.cpp
+	"../include/LitteraleExpr.h"
+
+1608431389 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteralefactory.cpp
+	"../include/LitteraleFactory.h"
+
+1608431389 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteraleint.cpp
+	"../include/LitteraleInt.h"
+
+1608431389 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteralenum.cpp
+	"../include/LitteraleNum.h"
+
+1608431389 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteraleratio.cpp
+	"../include/LitteraleRatio.h"
+
+1608431389 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteralereelle.cpp
+	"../include/LitteraleReelle.h"
+
+1608431389 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\cpp\operateurs.cpp
+	"../include/Operateurs.h"
+	<iostream>
+	"../include/Pile.h"
+	"../include/LitteraleFactory.h"
+
+1608431389 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\cpp\pile.cpp
+	"../include/Pile.h"
+	"../include/Litterale.h"
+
+1609033271 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\controleur\cpp\controleur.cpp
+	"../include/Controleur.h"
+
+1608999892 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\cpp\variablemanager.cpp
+	"../include/VariableManager.h"
+
+1609033761 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\variablemanager.h
+	"LitteraleExpr.h"
+	"LitteraleReelle.h"
+	"LitteraleInt.h"
+	"LitteraleRatio.h"
+	"LitteraleManager.h"
+	<map>
+
+1609033761 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\litteralemanager.h
+	"Litterale.h"
+	"LitteraleFactory.h"
+	<vector>
+
+1609021561 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\controleur\include\operateurmanager.h
+	"../../OperateurETLitterales/include/Operateurs.h"
+
+1609021116 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteralemanager.cpp
+	"../include/LitteraleManager.h"
+	"../include/Litterale.h"
+
+1609021561 source:c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\controleur\cpp\operateurmanager.cpp
+	"../include/OperateurManager.h"
+
+1609033271 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\controleur\include\controleurexception.h
+
+1609032858 c:\users\jgarc\desktop\projet-lo21-controleur++\projet-lo21-controleur++\calculut\calculut_vf\sources\operateuretlitterales\include\pileexception.h
+
+1609320286 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\main.cpp
+	<iostream>
+	"Sources/OperateurETLitterales/include/Operateurs.h"
+	"Sources/Controleur/include/Controleur.h"
+
+1609320409 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\operateurs.h
+	"Litterale.h"
+	"LitteraleNum.h"
+	"LitteraleInt.h"
+	"LitteraleReelle.h"
+	"LitteraleRatio.h"
+	"LitteraleExpr.h"
+	<vector>
+
+1608431389 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\litterale.h
+	<iostream>
+
+1608431389 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\litteralenum.h
+	<iostream>
+	"Litterale.h"
+
+1608431389 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\litteraleint.h
+	"LitteraleRatio.h"
+
+1609033761 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\litteraleratio.h
+	"LitteraleReelle.h"
+
+1609033761 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\litteralereelle.h
+	"LitteraleNum.h"
+
+1608431389 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\litteraleexpr.h
+	"LitteraleAtome.h"
+
+1608431389 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\litteraleatome.h
+	"Litterale.h"
+	<string>
+
+1609030917 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\controleur\include\controleur.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+	<regex>
+	"ControleurException.h"
+	"../../../Sources/OperateurETLitterales/include/Pile.h"
+	"../../../Sources/OperateurETLitterales/include/Litterale.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleInt.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleReelle.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleExpr.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleAtome.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleFactory.h"
+	"OperateurManager.h"
+	"../../../Sources/OperateurETLitterales/include/Operateurs.h"
+	"../../../Sources/OperateurETLitterales/include/VariableManager.h"
+
+1609033271 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\controleur\include\controleurexception.h
+
+1609237801 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\pile.h
+	<iostream>
+	<vector>
+	"Litterale.h"
+	"PileException.h"
+
+1609032858 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\pileexception.h
+
+1609236941 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\litteralefactory.h
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	"Litterale.h"
+	"LitteraleRatio.h"
+	"LitteraleInt.h"
+	"LitteraleReelle.h"
+	"LitteraleExpr.h"
+	"LitteraleAtome.h"
+	"LitteraleProgr.h"
+	"LitteraleException.h"
+
+1609236945 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\litteraleprogr.h
+	"Litterale.h"
+	<string>
+	<iostream>
+
+1608431389 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\litteraleexception.h
+	<stdexcept>
+	<string>
+
+1609021561 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\controleur\include\operateurmanager.h
+	"../../OperateurETLitterales/include/Operateurs.h"
+
+1609033761 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\variablemanager.h
+	"LitteraleExpr.h"
+	"LitteraleReelle.h"
+	"LitteraleInt.h"
+	"LitteraleRatio.h"
+	"LitteraleManager.h"
+	<map>
+
+1609033761 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\litteralemanager.h
+	"Litterale.h"
+	"LitteraleFactory.h"
+	<vector>
+
+1609321846 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\controleur\cpp\controleur.cpp
+	"../include/Controleur.h"
+
+1609321657 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\controleur\cpp\operateurmanager.cpp
+	"../include/OperateurManager.h"
+
+1608431389 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\cpp\litterale.cpp
+	"../include/Litterale.h"
+
+1608431389 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\cpp\litteraleatome.cpp
+	"../include/LitteraleAtome.h"
+
+1608431389 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\cpp\litteraleexpr.cpp
+	"../include/LitteraleExpr.h"
+
+1608431389 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\cpp\litteraleint.cpp
+	"../include/LitteraleInt.h"
+
+1609021116 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\cpp\litteralemanager.cpp
+	"../include/LitteraleManager.h"
+	"../include/Litterale.h"
+
+1608431389 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\cpp\litteralenum.cpp
+	"../include/LitteraleNum.h"
+
+1609033761 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\cpp\litteraleratio.cpp
+	"../include/LitteraleRatio.h"
+
+1609033761 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\cpp\litteralereelle.cpp
+	"../include/LitteraleReelle.h"
+
+1609319957 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\cpp\pile.cpp
+	"../include/Pile.h"
+	"../include/Litterale.h"
+
+1609033761 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\cpp\variablemanager.cpp
+	"../include/VariableManager.h"
+
+1609237199 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\cpp\litteralefactory.cpp
+	"../include/LitteraleFactory.h"
+
+1609237205 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\cpp\litteraleprogr.cpp
+	"../include/LitteraleProgr.h"
+
+1609320022 source:c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\cpp\operateurs.cpp
+	"../include/Operateurs.h"
+	<iostream>
+	"../include/Pile.h"
+	"../include/LitteraleFactory.h"
+	"../include/VariableManager.h"
+	"../include/OperateursException.h"
+	"../include/PileException.h"
+
+1609236914 c:\users\jgarc\desktop\calculut - copia\calculut_vf\sources\operateuretlitterales\include\operateursexception.h
+	<stdexcept>
+	<string>
+
+1609689636 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\main.cpp
+	<iostream>
+	"Sources/OperateurETLitterales/include/Operateurs.h"
+	"Sources/Controleur/include/Controleur.h"
+
+1609530713 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\operateurs.h
+	"Litterale.h"
+	"LitteraleNum.h"
+	"LitteraleInt.h"
+	"LitteraleReelle.h"
+	"LitteraleRatio.h"
+	"LitteraleExpr.h"
+	"LitteraleProgr.h"
+	<vector>
+
+1609603992 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\litterale.h
+	<iostream>
+
+1608431389 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\litteralenum.h
+	<iostream>
+	"Litterale.h"
+
+1608431389 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\litteraleint.h
+	"LitteraleRatio.h"
+
+1609777108 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\litteraleratio.h
+	"LitteraleReelle.h"
+
+1609777108 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\litteralereelle.h
+	"LitteraleNum.h"
+
+1609383123 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\litteraleexpr.h
+	"LitteraleAtome.h"
+
+1609383096 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\litteraleatome.h
+	"Litterale.h"
+	<string>
+
+1609709118 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\controleur\include\controleur.h
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+	<regex>
+	"ControleurException.h"
+	"../../../Sources/OperateurETLitterales/include/Pile.h"
+	"../../../Sources/OperateurETLitterales/include/Litterale.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleInt.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleReelle.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleExpr.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleAtome.h"
+	"../../../Sources/OperateurETLitterales/include/LitteraleFactory.h"
+	"OperateurManager.h"
+	"../../../Sources/OperateurETLitterales/include/Operateurs.h"
+	"../../../Sources/OperateurETLitterales/include/VariableManager.h"
+
+1609033271 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\controleur\include\controleurexception.h
+
+1609237801 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\pile.h
+	<iostream>
+	<vector>
+	"Litterale.h"
+	"PileException.h"
+
+1609032858 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\pileexception.h
+
+1609236941 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\litteralefactory.h
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	"Litterale.h"
+	"LitteraleRatio.h"
+	"LitteraleInt.h"
+	"LitteraleReelle.h"
+	"LitteraleExpr.h"
+	"LitteraleAtome.h"
+	"LitteraleProgr.h"
+	"LitteraleException.h"
+
+1609423647 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\litteraleprogr.h
+	"Litterale.h"
+	<string>
+	<iostream>
+
+1608431389 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\litteraleexception.h
+	<stdexcept>
+	<string>
+
+1609383851 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\controleur\include\operateurmanager.h
+	"../../OperateurETLitterales/include/Operateurs.h"
+
+1609539850 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\variablemanager.h
+	"LitteraleAtome.h"
+	"LitteraleReelle.h"
+	"LitteraleInt.h"
+	"LitteraleRatio.h"
+	"LitteraleManager.h"
+	<string>
+	<map>
+
+1609382391 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\litteralemanager.h
+	"Litterale.h"
+	"LitteraleFactory.h"
+	<vector>
+
+1609603701 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\controleur\cpp\controleur.cpp
+	"../include/Controleur.h"
+
+1609604110 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\controleur\cpp\operateurmanager.cpp
+	"../include/OperateurManager.h"
+
+1608431389 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\cpp\litterale.cpp
+	"../include/Litterale.h"
+
+1609383102 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteraleatome.cpp
+	"../include/LitteraleAtome.h"
+
+1609383146 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteraleexpr.cpp
+	"../include/LitteraleExpr.h"
+
+1609603314 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteralefactory.cpp
+	"../include/LitteraleFactory.h"
+
+1608431389 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteraleint.cpp
+	"../include/LitteraleInt.h"
+
+1609604766 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteralemanager.cpp
+	"../include/LitteraleManager.h"
+
+1608431389 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteralenum.cpp
+	"../include/LitteraleNum.h"
+
+1609423647 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteraleprogr.cpp
+	"../include/LitteraleProgr.h"
+
+1609604794 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteraleratio.cpp
+	"../include/LitteraleRatio.h"
+
+1609033761 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\cpp\litteralereelle.cpp
+	"../include/LitteraleReelle.h"
+
+1609687365 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\cpp\operateurs.cpp
+	"../include/Operateurs.h"
+	<iostream>
+	"../include/Pile.h"
+	"../include/LitteraleFactory.h"
+	"../../Controleur/include/Controleur.h"
+	"../include/VariableManager.h"
+	"../include/OperateursException.h"
+	"../include/PileException.h"
+	<iostream>
+	<vector>
+
+1609236914 c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\include\operateursexception.h
+	<stdexcept>
+	<string>
+
+1609382553 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\cpp\pile.cpp
+	"../include/Pile.h"
+	"../include/Litterale.h"
+	"../include/LitteraleManager.h"
+
+1609611338 source:c:\users\jgarc\desktop\git\projet-lo21\calculut\calculut_vf\sources\operateuretlitterales\cpp\variablemanager.cpp
+	"../include/VariableManager.h"
+
